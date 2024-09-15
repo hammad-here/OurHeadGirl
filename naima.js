@@ -13,7 +13,7 @@ let border = 6
 
 document.getElementById("naima").onclick = () => {
     video.style.display = "block"
-    video.src = "/happycat.mp4"
+    video.src = "happycat.mp4"
 
     ques.innerText = "YAYYYY!!! 🥳🎉"
 
@@ -27,7 +27,7 @@ document.getElementById("naima").onclick = () => {
 document.getElementById("other").onclick = () => {
     if (!isSad) {
         video.style.display = "block"
-        video.src = "/emotionalCat.mp4"
+        video.src = "emotionalCat.mp4"
         isSad = true
         ques.innerText = "plssss don't 🥺👉👈"
     }
